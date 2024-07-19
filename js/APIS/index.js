@@ -1,12 +1,3 @@
-function countriesAPI() {
-    fetch('https://restcountries.com/v3.1/all')
-    .then(res => res.json())
-    .then(response => {
-        console.log(response)
-    })
-}
-countriesAPI()
-
 let p1 = document.getElementById('message1');
 let p2 = document.getElementById('message1.1');
 let btn = document.getElementById('btn');
