@@ -1,0 +1,35 @@
+div#app {
+    text-align: center;
+}
+div.card {
+    background-color: #f1f1f1;
+    width: 60%;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+}
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #a00808a1;
+}
+li > span, button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+ul {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+    padding: 20px;
+}
+#btn {
+    cursor: pointer;
+    padding: 10px 18px 10px 18px;
+    border-radius: 10px;
+    background-color: #0e0c0c;
+    color: rgb(225, 228, 231);
+}
+#btn:hover {
+    background-color: #1e1b1b;
+}

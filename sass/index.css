@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* Para importar archivos separados se debe agregar a los archivos un _ antes de su nombre. Ejemplo:
+_nav.scss
+_main.scss
+Asi el sistema de Sass, dirá que es un archivo diferente y es para importar, el código sera más mantenible.
+*/
+.card {
+  background-color: #f6f6f6;
+  margin: auto;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  cursor: pointer;
+}
+.card:hover {
+  background-color: #000000;
+  transition: all 1s;
+  color: #f6f6f6;
+}
+.card .title {
+  font-size: 2em;
+  color: #d34545;
+}
+.card .descr {
+  font-size: 1em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btns, .btn-green, .btn-blue, .btn-red {
+  display: inline-block;
+  padding: 15px 20px;
+  background: none;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.btn-red {
+  background: rgb(226, 12, 12);
+}
+
+.btn-blue {
+  background: rgb(16, 12, 224);
+}
+
+.btn-green {
+  background: rgb(55, 205, 25);
+}
+
+/* Solución 2:  Con funciones
+@mixin btns {
+    display: inline-block;
+    padding: 15px 20px;
+    background: none;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.btn-red {
+    @include btns();
+    background: rgb(226, 12, 12);
+}
+.btn-blue {
+    @include btns();
+    background: rgb(16, 12, 224);
+}
+.btn-green {
+    @include btns();
+    background: rgb(55, 205, 25);
+}
+*/
+
+/*# sourceMappingURL=index.css.map */
