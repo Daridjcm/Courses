@@ -1,11 +1,21 @@
+let url_API = 'https://restcountries.com/v3.1/lang/spanish';
+let r;
+let arrMaped;
 function countriesAPI() {
-    fetch('https://restcountries.com/v3.1/all')
-    .then(res => res.json())
-    .then(response => {
-        console.log(response)
-    })
+    fetch(url_API)
+        .then(res => res.json())
+        .then(response => {
+            r = response.map((r) => r.name.common);
+            console.log(r)
+        })
+}
+function validateCountrie(data) {
+    console.log(data)
+    // array === 'Colombia' ? console.log('Bienvenido a Colombia') : undefined
+
 }
 countriesAPI()
+validateCountrie(r)
 
 let p1 = document.getElementById('message1');
 let p2 = document.getElementById('message1.1');
