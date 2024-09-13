@@ -11,7 +11,7 @@ export default function Present() {
 
     return (
         <div>
-            <h1>Presentación de {Dariana.fullname}</h1>
+            <h1 className="text-2xl font-bold">Presentación de {Dariana.fullname}</h1>
             <p>Nombre completo: {Dariana.fullname}</p>
             <span>Edad: {Dariana.age}</span>
             <span>{Dariana.ageStatus()}</span>

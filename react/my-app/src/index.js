@@ -7,6 +7,8 @@ import RecipeList from './exercise3';
 import Addition from './exercise4';
 import Present from './exercise5';
 import Garage from './exercise6';
+import Button from './exercise7';
+import './css/output.css'
 
 export const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -26,5 +28,7 @@ root.render(
     -------------------------------------------------------------------------
     <Garage />
     -------------------------------------------------------------------------
+    <Button text='Click Me' style='soft'/>
+    <Button text='Click Me' style='hard'/>
     </>
 )

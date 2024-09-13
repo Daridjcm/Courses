@@ -6,7 +6,7 @@ function Drink({ name, datas }) {
   }
   return (
     <section>
-      <h1>{name}</h1>
+      <h1 className="text-2xl">{name}</h1>
       <dl>
         <dt>Parte de la planta:</dt>
         <dd>{datas[0]}</dd>
@@ -25,6 +25,7 @@ export default function DrinkList() {
   return (
     <div>
       <Drink name="té" />
+      <br />
       <Drink name="café" />
     </div>
   );

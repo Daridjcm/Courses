@@ -10,7 +10,7 @@ export default function Garage() {
     ];
     return (
       <>
-        <h1>Who lives in my garage?</h1>
+        <h1 className="text-2xl font-bold">Who lives in my garage?</h1>
         <ul>
           {cars.map((car) => <Car key={car.id} brand={car.brand} />)}
         </ul>

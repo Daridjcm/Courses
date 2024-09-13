@@ -9,7 +9,7 @@ function Item2({ name, importance }) {
 export default function PackingList2() {
   return (
     <section>
-      <h1>Lista de equipaje de Sally Ride</h1>
+      <h1 className="text-2xl font-bold">Lista de equipaje de Sally Ride</h1>
       <ul>
         <Item2 importance={9} name="Traje de vuelo" />
         <Item2 importance={0} name="Casco con dorado a la hoja" />
